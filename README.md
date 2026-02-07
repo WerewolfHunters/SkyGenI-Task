@@ -133,12 +133,9 @@ Each deal is scored using a weighted combination of intuitive risk signals.
 ---
 
 ### Risk Score Formula
-
-Deal Risk Score =  
-0.4 × Sales Cycle Risk  
-+ 0.3 × Deal Stagnation Risk  
-+ 0.3 × Stage Risk
-
+```bash
+Deal Risk Score = 0.4 × Sales Cycle Risk + 0.3 × Deal Stagnation Risk  + 0.3 × Stage Risk
+```
 
 All components are normalized between **0 and 1**, making the score easy to interpret.
 
