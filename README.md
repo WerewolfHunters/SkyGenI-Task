@@ -255,37 +255,8 @@ The system is intentionally simple, explainable, and suitable for early-stage pr
 
 ### High-Level Architecture
 
-┌─────────────────────────────┐
-│   CRM Systems               │
-│   (Salesforce / HubSpot)    │
-└───────────────┬─────────────┘
-                │
-                │  Daily Sync
-                ▼
-┌─────────────────────────────┐
-│   Data Ingestion Layer      │
-│   (ETL / Validation)        │
-└───────────────┬─────────────┘
-                │
-                ▼
-┌─────────────────────────────┐
-│   Analytics &               │
-│   Decision Engine           │
-│   - Insights                │
-│   - Risk Scoring            │
-└───────────────┬─────────────┘
-                │
-                ▼
-┌─────────────────────────────┐
-│   Insights Store            │
-│   (Metrics & Scores)        │
-└───────────────┬─────────────┘
-                │
-                ▼
-┌─────────────────────────────┐
-│   Alerts & Dashboards       │
-│   (Slack / Email / Web UI)  │
-└─────────────────────────────┘
+<img width="1024" height="1536" alt="sales_insights_diagram" src="https://github.com/user-attachments/assets/5c4272b0-ba23-403b-92c8-d6077e14827a" />
+
 
 *System Explanation*:
 Sales data is ingested daily from CRM systems, processed by an analytics and decision engine to generate insights and risk scores, and then stored and surfaced through dashboards and proactive alerts to support timely sales leadership decisions.
