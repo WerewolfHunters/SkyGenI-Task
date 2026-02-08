@@ -10,6 +10,8 @@
 - Part 4 shows how this could be productized
 - Part 5 reflects on limitations and next steps
 
+**Loom Video Link**
+https://www.loom.com/share/363be8a19a9748be8d919cafa0a07866
 ---
 
 ## Part 1 – Problem Framing
